@@ -51,7 +51,7 @@ public class UserService implements UserDetailsService {
                     "Hello, %s! \n" +
                             "Welcome to CustomChat app! \n"+
                             "Visit next link to activate your account \n"+
-                            "http://localhost:8080/activate/%s",
+                            "https://custom-chat-maxim.herokuapp.com/activate/%s",
                     user.getUsername(),
                     user.getActivationCode()));
             mailSender.send(message);
