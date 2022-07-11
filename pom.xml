@@ -93,7 +93,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.chat.custom.customchat</mainClass>
+                            <mainClass>com.chat.custom.customchat.CustomChatApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
