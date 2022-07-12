@@ -89,7 +89,7 @@
         <div id="paste-active-chat-here" hidden></div>
         <div class="col-8" id="spacer">
         </div>
-        <div class="col-2 settings-and-profile" id="settings" style="display: none; right: 0px; flex-direction: column;">
+        <div class="col-2 settings-and-profile" id="settings" style="right: -1000px; flex-direction: column;">
             <img onclick="move_settings_menu_forward()" src="/static/img/menu.svg" style="height: 64px; width: 64px; margin: 5px;">
             <form action="/createChat" method="post">
                 <input type="hidden" name="_csrf" value="${_csrf.token}" />
