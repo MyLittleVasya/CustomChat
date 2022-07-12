@@ -25,13 +25,13 @@ function move_menu_chat_forward()
 function move_settings_menu_back()
 {
     const menu = document.getElementById('settings');
-    menu.style.right = "0px";
+    menu.style.display = '';
 }
 
 function move_settings_menu_forward()
 {
     const menu = document.getElementById('settings');
-    menu.style.right = "-1000px";
+    menu.style.display = 'none';
 }
 
 function add_member(member_id)
